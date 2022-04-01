@@ -45,12 +45,11 @@ body {
 }
 
 #request{
-    width: auto;
     height: 100%;
     background-color: #757272;
     border: 1px dotted white;
     font: 15px/25px normal Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 #response{
@@ -61,6 +60,7 @@ body {
     font-weight: bold;
     padding: 10px;
     text-align: center;
+    margin: 10px;
 }
 
 #code{
@@ -102,12 +102,14 @@ em.var{
 }
 
 .message {
+    margin-left: 10px;
     width: 160px;
     animation: digitando 20s steps(40), blink .900s infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
 }
+
 @keyframes digitando {
     from { width: 0; }
 }
