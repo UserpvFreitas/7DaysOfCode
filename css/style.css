@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font: 13px/20px normal Helvetica, Arial, sans-serif;
+    color: #f1f1f1;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#wrapper{
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;    
+}
+
+#left {
+    flex: 0 0 40%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#right {
+    flex: 1 1 60%;
+    border: 1px solid white;
+}
+
+#left p{
+    margin: 0;
+    padding: 10px;
+}
+
+#days{
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.text_code{
+    margin: 0;
+    padding: 10px;    
+    background-color: #000000;
+}
+
+#request{
+    width: auto;
+    height: 100%;
+    background-color: #757272;
+    border: 1px dotted white;
+    font: 15px/25px normal Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#response{
+    width: auto;
+    background-color: #5a1111;
+    border: 1px dotted white;
+    font: 15px/25px normal Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+#code{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #000000;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.comments {
+    color: #009900;
+    padding: 0px;
+}
+
+.tab0 {
+    color: white;
+    margin-left: 0;
+    padding: 0;
+}
+.tab1 {
+    color: white;
+    margin-left: 40px;
+    padding: 0;
+}
+
+em.var{
+    color: #144ff1;
+    font-weight: bold;
+}
+
+.btn{
+    margin-left: 5px;
+}
+
+.message {
+    width: 160px;
+    animation: digitando 20s steps(40), blink .900s infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+@keyframes digitando {
+    from { width: 0; }
+}
+
+@keyframes blink {
+    40% { border-color: rgba(255,255,255,0.2) }
+}
