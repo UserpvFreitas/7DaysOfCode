@@ -103,7 +103,7 @@ function getJSResponse(day){
     let stringDez = '10';
 
     html = '';
-    if (stringUm === numeroUm) {
+    if (stringUm == numeroUm) {
       html += '(Primeiro IF) As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes';
     } else {
       html += '(Primeiro IF) As variáveis numeroUm e stringUm não tem o mesmo valor';
@@ -116,7 +116,7 @@ function getJSResponse(day){
     }
     html += '<br>';
     
-    if (numeroDez === stringDez) {
+    if (numeroDez == stringDez) {
       html += '(Terceiro IF) As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes';
     } else {
       html += '(Terceiro IF) As variáveis numeroDez e stringDez não tem o mesmo valor';
