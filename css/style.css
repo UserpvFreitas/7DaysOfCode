@@ -4,12 +4,10 @@ body {
     color: #f1f1f1;
     overflow: auto;
     justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 #wrapper{
-    width: 98%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;    
@@ -107,7 +105,22 @@ em.var{
     animation: digitando 20s steps(40), blink .900s infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid;
+    border-right: 2px solid;    
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+}
+
+.child {
+    margin: 0 auto;
+}
+
+.form h3{
+    text-align: center;
 }
 
 @keyframes digitando {
